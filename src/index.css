@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@keyframes heartBeat {
+    0%, 100% { transform: scale(1); }
+    10%, 30% { transform: scale(0.9); }
+    20%, 50%, 80% { transform: scale(1.1); }
+    40%, 60%, 90% { transform: scale(1.05); }
+}
+
+.heart-beat {
+    animation: heartBeat 1.3s ease-in-out infinite;
+    display: inline-block;
+}
